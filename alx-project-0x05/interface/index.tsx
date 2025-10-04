@@ -44,7 +44,7 @@ export interface PageRouteProps {
 
 // Interface for the Button component
 export interface ButtonProps {
-  action: () => void;
+  action?: () => void;
   buttonLabel: string;
   buttonBackgroundColor: "red" | "blue" | "green" | "orange";
 }
